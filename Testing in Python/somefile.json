@@ -1,0 +1,67 @@
+[
+    {
+        "type": "convention",
+        "module": "Scriptfortest",
+        "obj": "",
+        "line": 22,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "Scriptfortest.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "convention",
+        "module": "Scriptfortest",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "Scriptfortest.py",
+        "symbol": "invalid-name",
+        "message": "Module name \"Scriptfortest\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "Scriptfortest",
+        "obj": "poly1",
+        "line": 4,
+        "column": 0,
+        "endLine": 18,
+        "endColumn": 32,
+        "path": "Scriptfortest.py",
+        "symbol": "invalid-name",
+        "message": "Class name \"poly1\" doesn't conform to PascalCase naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "refactor",
+        "module": "Scriptfortest",
+        "obj": "poly1.newmethod",
+        "line": 14,
+        "column": 4,
+        "endLine": 18,
+        "endColumn": 32,
+        "path": "Scriptfortest.py",
+        "symbol": "no-self-use",
+        "message": "Method could be a function",
+        "message-id": "R0201"
+    },
+    {
+        "type": "warning",
+        "module": "Scriptfortest",
+        "obj": "poly1.method_of_class",
+        "line": 12,
+        "column": 8,
+        "endLine": 12,
+        "endColumn": 16,
+        "path": "Scriptfortest.py",
+        "symbol": "attribute-defined-outside-init",
+        "message": "Attribute 'var' defined outside __init__",
+        "message-id": "W0201"
+    }
+]
